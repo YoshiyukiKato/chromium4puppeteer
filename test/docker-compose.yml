@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  edge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ALPINE_VERSION=edge
+  v3.8:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ALPINE_VERSION=v3.8

@@ -1,0 +1,27 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "test of chromium4puppeteer",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hogehoge"
+  },
+  "keywords": [
+    "docker",
+    "alpine",
+    "chromium",
+    "puppeteer"
+  ],
+  "author": "Yoshiyuki Kato",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "puppeteer": "^1.4.0"
+  }
+}

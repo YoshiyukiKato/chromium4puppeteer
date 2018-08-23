@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  edge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ALPINE_VERSION=edge
+    image: yoshiyuki/chromium4puppeteer:edge
+
+  v3.8:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ALPINE_VERSION=v3.8
+    image: yoshiyuki/chromium4puppeteer:v3.8
